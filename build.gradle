@@ -33,8 +33,3 @@ test {
 tasks.withType(JavaCompile) {
 	options.encoding = "UTF-8"
 }
-
-
-processResources {
-	encoding = "UTF-8"
-}
